@@ -11,7 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
   background-color: var(--color-white);
-  margin: 0;
 }
 
 a {
@@ -20,8 +19,6 @@ a {
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header-logo,
@@ -75,7 +72,6 @@ ul {
 .hero {
   background-color: var(--color-dark);
   text-align: center;
-  padding: 120px 0;
 }
 
 .hero-title {
@@ -83,7 +79,6 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -95,20 +90,12 @@ ul {
   color: var(--color-white);
   background-color: var(--color-primary);
   cursor: pointer;
-  padding: 16px 32px;
   border: none;
-  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--color-accent);
-}
-
-.features,
-.team,
-.portfolio {
-  padding: 120px 0;
 }
 
 .features-title,
@@ -138,7 +125,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
-  margin-bottom: 72px;
 }
 
 .team-list .team-item,
@@ -153,21 +139,13 @@ ul {
 .footer {
   background-color: #2e2f42;
   text-align: center;
-  padding: 100px 0;
 }
 
 .footer-text {
-  max-width: 264px;
-  margin: 16px auto 0;
   color: var(--color-bg-light);
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -175,14 +153,9 @@ ul {
 }
 
 .team {
-  background-color: #f4f4fd; /* або var(--color-bg-light), якщо змінна дорівнює #f4f4fd */
+  background-color: #f4f4fd;
 }
 
 .team-item {
-  background-color: #ffffff; /* або var(--color-white) */
-}
-
-.features-list {
-  display: flex;
-  gap: 24px;
+  background-color: #ffffff;
 }
