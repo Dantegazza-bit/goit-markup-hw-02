@@ -173,3 +173,16 @@ ul {
   white-space: nowrap;
   border: 0;
 }
+
+.team {
+  background-color: #f4f4fd; /* або var(--color-bg-light), якщо змінна дорівнює #f4f4fd */
+}
+
+.team-item {
+  background-color: #ffffff; /* або var(--color-white) */
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
