@@ -109,23 +109,10 @@ body {
   background-color: var(--color-dark);
 }
 
-<<<<<<< HEAD
-=======
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-primary);
-}
-
 .footer-logo-accent {
   color: var(--color-bg-light);
 }
 
->>>>>>> 48ab65ee4feeea5f7a12cf29496b9b82199f7dc9
 .footer-text {
   color: var(--color-bg-light);
 }
