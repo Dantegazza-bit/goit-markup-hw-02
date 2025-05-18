@@ -14,7 +14,6 @@ body {
   background-color: var(--color-white);
 }
 
-/* LOGO */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -33,7 +32,6 @@ body {
   color: var(--color-bg-light);
 }
 
-/* NAV */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -47,7 +45,6 @@ body {
   color: var(--color-accent);
 }
 
-/* ADDRESS */
 .contact {
   font-style: normal;
 }
@@ -64,7 +61,6 @@ body {
   color: var(--color-accent);
 }
 
-/* HERO */
 .hero {
   background-color: var(--color-dark);
   text-align: center;
@@ -88,6 +84,7 @@ body {
   background-color: var(--color-primary);
   cursor: pointer;
   border: none;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -95,7 +92,6 @@ body {
   background-color: var(--color-accent);
 }
 
-/* FEATURES */
 .features-title {
   font-size: 20px;
   font-weight: 500;
@@ -111,9 +107,9 @@ body {
   color: var(--color-text);
 }
 
-/* TEAM */
 .team {
   background-color: var(--color-bg-light);
+  padding: 120px 0;
 }
 
 .team-title {
@@ -123,10 +119,13 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
+  margin-bottom: 72px;
 }
 
 .team-item {
   background-color: var(--color-white);
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-name {
@@ -135,6 +134,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
+  margin-top: 32px;
 }
 
 .team-role {
@@ -142,11 +142,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  margin-top: 8px;
 }
 
-/* PORTFOLIO */
 .portfolio {
   background-color: var(--color-white);
+  padding: 120px 0;
 }
 
 .portfolio-title {
@@ -156,10 +157,13 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
   background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  padding: 0 0 32px 0;
 }
 
 .portfolio-name {
@@ -168,6 +172,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
+  margin: 32px 16px 8px;
 }
 
 .portfolio-text {
@@ -175,6 +180,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  margin: 0 16px;
 }
 
 .filter-button {
@@ -186,6 +192,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
+  padding: 12px 24px;
 }
 
 .filter-button:hover,
@@ -194,9 +201,9 @@ body {
   color: var(--color-white);
 }
 
-/* FOOTER */
 .footer {
   background-color: var(--color-dark);
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -204,4 +211,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-bg-light);
+  max-width: 264px;
+  margin-top: 16px;
 }
