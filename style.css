@@ -272,11 +272,11 @@ button {
   height: auto;
 }
 
-.portfolio-content {
+.portfolio-info {
   padding: 32px 16px;
 }
 
-.portfolio-title {
+.portfolio-name {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
