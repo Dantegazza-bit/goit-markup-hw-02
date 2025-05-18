@@ -168,3 +168,12 @@ ul {
 .team-list {
   background-color: #ffffff;
 }
+
+.team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
