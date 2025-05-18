@@ -186,22 +186,3 @@ ul {
   display: flex;
   gap: 24px;
 }
-
-.check-properties {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  left: 10px;
-  top: 5px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  order: 1;
-  flex-grow: 1;
-  border-bottom: 1px solid #000;
-}
