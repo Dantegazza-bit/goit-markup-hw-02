@@ -5,7 +5,6 @@
   --color-text: #434455;
   --color-bg-light: #f4f4fd;
   --color-white: #ffffff;
-  --color-border: #e7e9fc;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
   background-color: var(--color-white);
 }
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24,12 +23,8 @@ body {
   color: var(--color-primary);
 }
 
-.logo-accent {
+.header-logo-accent {
   color: var(--color-dark);
-}
-
-.footer-logo-accent {
-  color: var(--color-bg-light);
 }
 
 .nav-link {
@@ -45,10 +40,6 @@ body {
   color: var(--color-accent);
 }
 
-.contact {
-  font-style: normal;
-}
-
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -59,11 +50,6 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--color-accent);
-}
-
-.hero {
-  background-color: var(--color-dark);
-  text-align: center;
 }
 
 .hero-title {
@@ -83,8 +69,6 @@ body {
   color: var(--color-white);
   background-color: var(--color-primary);
   cursor: pointer;
-  border: none;
-  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -92,125 +76,39 @@ body {
   background-color: var(--color-accent);
 }
 
-.features-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-dark);
-}
-
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text);
-}
-
-.team {
-  background-color: var(--color-bg-light);
-  padding: 120px 0;
-}
-
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--color-dark);
-  margin-bottom: 72px;
-}
-
-.team-item {
-  background-color: var(--color-white);
-  padding: 32px 0;
-  text-align: center;
-}
-
-.team-name {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-dark);
-  margin-top: 32px;
-}
-
-.team-role {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text);
-  margin-top: 8px;
-}
-
-.portfolio {
-  background-color: var(--color-white);
-  padding: 120px 0;
-}
-
-.portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--color-dark);
-  margin-bottom: 72px;
-}
-
-.portfolio-item {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
-  padding: 0 0 32px 0;
-}
-
+.features-title,
+.team-name,
 .portfolio-name {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
-  margin: 32px 16px 8px;
 }
 
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text);
-  margin: 0 16px;
-}
-
-.filter-button {
-  background-color: var(--color-bg-light);
-  color: var(--color-dark);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  border: none;
-  padding: 12px 24px;
-}
-
-.filter-button:hover,
-.filter-button:focus {
-  background-color: var(--color-accent);
-  color: var(--color-white);
-}
-
-.footer {
-  background-color: var(--color-dark);
-  padding: 100px 0;
-}
-
+.features-text,
+.team-role,
+.portfolio-text,
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+
+.footer {
+  background-color: var(--color-dark);
+}
+
+.footer-text {
   color: var(--color-bg-light);
-  max-width: 264px;
-  margin-top: 16px;
 }
