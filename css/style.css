@@ -141,13 +141,20 @@ ul {
   margin-bottom: 72px;
 }
 
-.team-list .team-item,
-.portfolio-list .portfolio-item {
+.team {
+  background-color: var(--color-bg-light);
+}
+
+.team-item {
   background-color: var(--color-white);
 }
 
 .portfolio {
   background-color: var(--color-bg-light);
+}
+
+.portfolio-item {
+  background-color: var(--color-white);
 }
 
 .footer {
@@ -174,19 +181,7 @@ ul {
   border: 0;
 }
 
-.team {
-  background-color: #f4f4fd; /* або var(--color-bg-light), якщо змінна дорівнює #f4f4fd */
-}
-
-.team-item {
-  background-color: #ffffff; /* або var(--color-white) */
-}
-
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
+/* ✅ Блок для перевірки всіх "зайвих властивостей" */
 .check-properties {
   position: relative;
   width: 100px;
@@ -203,5 +198,3 @@ ul {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   order: 1;
   flex-grow: 1;
-  border-bottom: 1px solid #000;
-}
