@@ -16,7 +16,6 @@ body {
 
 .team {
   background-color: var(--color-bg-light);
-  padding: 120px 0;
 }
 
 .team-title {
@@ -27,7 +26,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .team-item {
@@ -35,10 +33,16 @@ body {
 }
 
 .team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   color: var(--color-dark);
 }
 
 .team-role {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   color: var(--color-text);
 }
 
@@ -48,10 +52,18 @@ body {
 }
 
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--color-bg-light);
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-primary);
 }
 
@@ -60,11 +72,21 @@ body {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-primary);
 }
 
 .nav-link {
   color: var(--color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -74,6 +96,9 @@ body {
 
 .contact-link {
   color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -81,14 +106,33 @@ body {
   color: var(--color-accent);
 }
 
+.contact {
+  font-style: normal;
+}
+
 .hero {
   background-color: var(--color-dark);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--color-white);
 }
 
 .hero-button {
   background-color: var(--color-primary);
   color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -97,10 +141,17 @@ body {
 }
 
 .features-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
 .features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 
@@ -109,31 +160,46 @@ body {
 }
 
 .portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   color: var(--color-dark);
-}
-
-.portfolio-item {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 
 .filter-button {
   background-color: var(--color-bg-light);
   color: var(--color-dark);
-  border: 1px solid var(--color-border);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--color-accent);
   color: var(--color-white);
-  border-color: var(--color-accent);
+}
+
+.logo-accent {
+  color: var(--color-dark);
 }
