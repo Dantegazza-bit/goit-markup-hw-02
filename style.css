@@ -1,9 +1,8 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-
 
 .team {
   background-color: #f4f4fd;
@@ -30,8 +29,7 @@ body {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-              0px 1px 1px rgba(46, 47, 66, 0.16),
-              0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   text-align: center;
   padding-bottom: 32px;
 }
@@ -73,7 +71,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -96,7 +94,10 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
@@ -121,7 +122,7 @@ button {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -233,4 +234,57 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* ======= PORTFOLIO ======= */
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-content {
+  padding: 32px 16px;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
 }
